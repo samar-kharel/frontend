@@ -5,29 +5,31 @@ export default function Persons() {
             name: "Samar",
             address: "Kathmandu",
             age : 19,
-            seatNumber: [40,50,60,70]
+            seatNumber: [40,50,60,70],
+            display: true
         },
         {
             name: "Ram",
             address: "Bhaktapur",
             age : 40,
-            seatNumber: [400,50,60,70]
+            seatNumber: [400,50,60,70],
+            display: false
         },
         {
             name: "Hari",
             address: "Lumbini",
             age : 40,
-            seatNumber: [40,500,60,70]
+            seatNumber: [40,500,60,70],
+            display: true
         },
         {
             name: "Shyam",
             address: "Kathmandu",
             age : 40,
-            seatNumber: [40,50,600,70]
+            seatNumber: [40,50,600,70],
+            display: true
         }
     ]
-
-
 
 
     return(
@@ -38,6 +40,7 @@ export default function Persons() {
                     address={person.address}
                     age= {person.age}
                     seatNumber= {person.seatNumber}
+                    display= {person.display}
                 />)
                 // persons.map(person => {
                 //     return(

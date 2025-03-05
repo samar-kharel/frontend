@@ -3,6 +3,10 @@ import Greetings from "./components/Greetings"
 import Groceries from "./components/Groceries"
 import Persons from "./components/Persons"
 import Inventories from "./components/Inventories"
+import Conditions from "./components/Conditions"
+import Message from "./components/Message"
+import State from "./components/State"
+import Form from "./components/Form"
 
 function App() {
   const groceries = ["Apple","Banana","Mangoes"]
@@ -17,8 +21,8 @@ function App() {
 
   return (
       <div>
-        <h1> React App</h1>
-        <h2> --------------------------------- </h2>
+        {/* <h1> React App</h1>
+        <h2> --------------------------------- </h2> */}
         {/* <Hello name="Samar" address="Kathmandu"/>
         <Hello name="John" address="Pokhara" />
         <Greetings name="morning"/> */}
@@ -28,8 +32,12 @@ function App() {
         {/* <Groceries item="Milkshake" item1= "Tomatoes"/> */}
         {/* <Groceries groceries={groceries}/>
         <Hello person={person}/> */}
-        <Persons/>
-        <Inventories/>
+        {/* <Persons/> */}
+        {/* <Message/>
+        <State/> */}
+        <Form/>
+        {/* <Inventories/> */}
+        {/* <Conditions/> */}
       </div>
   )
 }
